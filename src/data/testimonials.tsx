@@ -1,0 +1,12 @@
+export type Testimonial = { quote: string; name: string; role: string; initials: string };
+
+export const testimonials: Testimonial[] = [
+  { quote: "Excelente trabajo. Supo entender perfectamente lo que necesitábamos y lo resolvió con rapidez, claridad y mucha dedicación. ¡Recomendado 100%!", name: "Patricio Zaltzberg", role: "Executive and Commercial Director UPA Entertainment", initials: "PZ" },
+  { quote: "Teofilo hizo un gran trabajo, lo entregó a tiempo y la comunicación con él fue muy buena. Entendió perfectamente los requisitos del trabajo y lo llevó a cabo a la perfección. Hizo las correcciones necesarias dentro del presupuesto. Definitivamente volvería a contar con él para más trabajos. Lo recomiendo ampliamente.", name: "Karla M", role: "Direct Marketing Executive", initials: "KM" },
+  { quote: "Trabajar con Teofilo ha sido muy sencillo, ha entendido a la perfección el trabajo y lo ha ejecutado de forma correcta y a tiempo. La comunicación ha sido fluida y el resultado final tal y como se requirió. Lo recomiendo.", name: "Tecnotecnicae", role: "Customer Directives Strategist", initials: "TE" },
+  { quote: "Contraté a Teofilo para la migración y mejora de dos páginas web que tengo. Fue muy serio con su trabajo, siempre estuvo pendiente de mis consultas y dudas. Seguiré trabajando con él y además lo recomiendo.", name: "Joe Vargas", role: "Forward Intranet Liaison", initials: "JV" },
+  { quote: "Trabajador muy comprometido, trabajó constantemente en el proyecto hasta que lo finalizó con éxito.", name: "Acronia Studio", role: "Direct Group Designer", initials: "AS" },
+  { quote: "Es un profesional, ha hecho un trabajo fantástico, rápido y creativo para mejorar la web y obtener mejores resultados. Lo recomiendo 100%.", name: "Nick Fiverr - Emprendedor2016", role: "Forward Solutions Agent", initials: "NF" },
+  { quote: "EH Hola Teofilo, de mi parte me queda decir gracias. Contigo realicé los puntos pendientes en mi página web y estoy satisfecho con tu trabajo. Es muy probable que en un futuro salgan más trabajos y espero contar contigo en ellos. Saludos.", name: "Daniel IT", role: "Forward Solutions Agent", initials: "DI" },
+  { quote: "Teófilo hizo un gran trabajo ayudándome con problemas que presentaba mi web https://www.imaginemos.pe Fue rápido, eficiente y muy profesional. ¡Lo recomiendo!", name: "Betty Ramos", role: "Dueña Imaginemos, Tienda de juguetes para niños", initials: "BR" }
+];
