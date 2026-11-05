@@ -103,10 +103,19 @@ function Testimonials() {
 }
 
 function App() {
-  const content = siteContent.replace(
+  const content = siteContent
+    .replace(
+      '<a class="btn" href="#" data-pdf="es">',
+      '<a class="btn" href="https://drive.google.com/file/d/1MJjtTNQmSGJ4srJIcNHcw6TJZkkqQGl8/view?usp=sharing" target="_blank" rel="noopener noreferrer">',
+    )
+    .replace(
+      '<a class="btn o" href="#" data-pdf="en" lang="en">',
+      '<a class="btn o" href="https://drive.google.com/file/d/1mArSTmIUdkvKp0uK1vBwv0sKyNgq4ute/view?usp=sharing" target="_blank" rel="noopener noreferrer" lang="en">',
+    )
+    .replace(
     '<section id="experiencia"',
     '<section id="proyectos-ai" class="alt"><div class="c"><h2 class="rv">Diseño basado en AI</h2><p class="sub rv">Proyectos de Figma potenciados con Inteligencia Artificial.</p><div id="ai-projects-root"></div></div></section><section id="experiencia"',
-  );
+    );
 
   useEffect(() => {
     const html = document.documentElement;
